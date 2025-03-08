@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+#intro {
+	display: flex;
+	fustify-content: space-between;
+	align-items: center;
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+}
+
+#main1 {
+	width: 50%;
+}
+
+#intro-text {
+	test-align: end;
+	padding-left: 50px;
+}

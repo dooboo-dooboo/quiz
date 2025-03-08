@@ -1,0 +1,47 @@
+@charset "EUC-KR";
+#text-parent {
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#post-container {
+	text-align: center;
+}
+
+.post {
+	margin-top: 50px;
+	width: 70%;
+	border: 1px solid #000000;
+	border-radius: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+	overflow-wrap: anywhere;
+}
+
+.no-parent-style {
+	text-align: left;
+	white-space: pre-wrap;
+}
+
+.post-info {
+	float: right;
+	color: #777777;
+	margin-top: -50px;
+}
+
+#new-post {
+	display: block;
+}
+
+#new-post input {
+	padding: 0;
+	margin: 0;
+	float: right;
+}
+
+#change-page {
+	text-align: center;
+	margin-top: 30px;
+}

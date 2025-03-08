@@ -1,0 +1,62 @@
+@charset "EUC-KR";
+#text-parent {
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#new-quiz {
+	display: block;
+}
+
+#new-quiz input {
+	padding: 0;
+	margin: 0;
+	float: right;
+}
+
+#change-page {
+	text-align: center;
+	margin-top: 30px;
+}
+
+#quiz-container {
+	text-align: center;
+}
+
+.quiz {
+	margin-top: 50px;
+	width: 70%;
+	border: 1px solid #000000;
+	border-radius: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+	overflow-wrap: anywhere;
+}
+
+.no-parent-style {
+	text-align: left;
+}
+
+.quiz-info {
+	float: right;
+	color: #777777;
+	margin-top: -50px;
+	text-align: right;
+}
+
+.solve-link {
+	text-decoration: none;
+	color: #000000;
+	font-weight: bold;
+	padding: 5px;
+	border: 1px solid #000000;
+	border-radius: 5px;
+}
+
+.solved-count {
+	text-align: right;
+	color: #777777;
+	margin-top: -25px;
+}
